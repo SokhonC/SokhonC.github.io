@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+        <script type="text/javascript">
+        var str = ["Hello", "I'm Sokhon", "And now I'm still working on the Git Hub project", "And I hope you will visit my repository", "Thank You! \n #csknq"];
+        function clicked()
+        {
+            for (i=0;i<str.length;i++)
+            {
+                alert(str[i]);
+            }
+        }
+        </script>
+    </head>
+    <body ng-app="">
+        <h1 class="h11">SOKHON_CHHUN</h1>
+            <ul>
+                <li><a class="active" href="file:///C:/Users/Sokhon%20Chhun/Documents/GitHub/sokhonchhun.github.io/index.html">Home</a></li>
+                <li><a href="https://www.youtube.com/channel/UCN-r0U1AxD6lkexryenteoQ?view_as=subscriber">Link</a></li>
+                <li><a href="https://github.com/SokhonC/sokhonchhun.github.io">Contact</a></li>
+                <li><a onclick="clicked()" href="#about">About</a></li>
+            </ul>
+        <div class="form1">
+            <form>
+                    <h1>Please enter your name :
+                    <input type="text" ng-model="name"></h1>
+            </form>
+                <h2>Your name is : {{name}}</h2>    
+            <form>
+                <h1>Please choose which University do you prefer to go to <br>after you graduate from High School:<br>
+                    <input type="radio" ng-model="course" value="a">KIT
+                    <input type="radio" ng-model="course" value="b">RUPP
+                    <input type="radio" ng-model="course" value="c">AUPP
+                </h1>
+            </form>
+                <div ng-switch="course">
+                    <div ng-switch-when="a">
+                        <h2>{{name}} KIT</h2>
+                    </div>
+                    <div ng-switch-when="b">
+                        <h2>{{name}} RUPP</h2>
+                    </div>
+                    <div ng-switch-when="c">
+                        <h2>{{name}} AUPP</h2>
+                    </div>
+                </div>
+            <form>
+                <h1>Please comfirm:
+                    <input type="checkbox" ng-model="check">
+                </h1>
+            </form>
+                <h2 ng-show="check"> Thank you {{name}} for your survey</h2>
+        </div>
+    </body>
+</html>
