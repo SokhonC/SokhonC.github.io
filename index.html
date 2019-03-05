@@ -12,17 +12,31 @@
                 alert(str[i]);
             }
         }
+        function myfunction()
+        {
+            var x = document.getElementById("mydiv");
+            if (x.style.display === "block") 
+            {
+                x.style.display = "none";
+            } 
+            else 
+            {
+                x.style.display = "block";
+        }
+        }
         </script>
     </head>
     <body ng-app="">
-        <h1 class="h11">SOKHON_CHHUN</h1>
+        <h1 class="h11">Survey</h1>
             <ul>
                 <li><a class="active" href="file:///C:/Users/Sokhon%20Chhun/Documents/GitHub/sokhonchhun.github.io/index.html">Home</a></li>
                 <li><a href="https://www.youtube.com/channel/UCN-r0U1AxD6lkexryenteoQ?view_as=subscriber">Link</a></li>
-                <li><a href="https://github.com/SokhonC/sokhonchhun.github.io">Contact</a></li>
+                <li><a href="https://github.com/SokhonC/SokhonC.github.io">Contact</a></li>
                 <li><a onclick="clicked()" href="#about">About</a></li>
             </ul>
-        <div class="form1">
+        <p><h3>Survey :</h3> It is about which university do you prefer to go to</p>
+        <button onclick="myfunction()" class="b1">survey</button>
+        <div class="form1" id="mydiv">
             <form>
                     <h1>Please enter your name :
                     <input type="text" ng-model="name"></h1>
