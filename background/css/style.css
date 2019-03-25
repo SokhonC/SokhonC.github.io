@@ -1,0 +1,16 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: antiquewhite;
+}
+#particles-js
+{
+    background-image: url(../img/demo.jpg);
+    background-size: cover;
+    height: 680px;
+    width: 100%;
+}
