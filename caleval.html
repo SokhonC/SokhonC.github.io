@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+        function clicked(a)
+        {
+            var x=document.getElementById("kiko").value;
+            var a= eval(x);
+            document.getElementById("demo").innerHTML=a;
+        }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="kiko">
+        <button onclick="clicked()">eval</button>
+        <p id="demo"></p>
+    </body>
+</html>
