@@ -1,11 +1,41 @@
-# STATIC
+# Nuxt-Tailwind
+## Why this?
+- Struggling with setting Vuetify or Tailwind with Nuxt
+- Vuetify is suck ><
+```bash
+# Just in case if this is not working
+npm install @nuxtjs/tailwindcss # yarn add @nuxtjs/tailwindcss
+``` 
 
-**This directory is not required, you can delete it if you don't want to use it.**
+## Build Setup
 
-This directory contains your static files.
-Each file inside this directory is mapped to `/`.
-Thus you'd want to delete this README.md before deploying to production.
+### Set up
 
-Example: `/static/robots.txt` is mapped as `/robots.txt`.
+```bash
+#install node package module 
+$ npm install # yarn install 
+```
 
-More information about the usage of this directory in [the documentation](https://nuxtjs.org/guide/assets#static).
+### Development
+
+```bash
+# serve with hot reloading at localhost:3000
+$ npm run dev # yarn dev
+```
+
+Go to [http://localhost:3000](http://localhost:3000)
+
+### Production
+
+```bash
+# build for production and launch the server
+$ npm run build # yarn build
+$ npm start # yarn start
+```
+
+### Generate
+
+```bash
+# generate a static project
+$ npm run generate # yarn generate
+```
