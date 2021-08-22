@@ -4,7 +4,8 @@ import { normalizeURL } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _01cf56ca = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _6fbc62fc = () => interopDefault(import('../node_modules/@nuxtjs/tailwindcss/lib/ui/pages/index.vue' /* webpackChunkName: "" */))
+const _0cf8667e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -23,8 +24,12 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/_tailwind",
+    component: _6fbc62fc,
+    name: "_tailwind"
+  }, {
     path: "/",
-    component: _01cf56ca,
+    component: _0cf8667e,
     name: "index"
   }],
 

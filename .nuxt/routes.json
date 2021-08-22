@@ -1,9 +1,13 @@
 [
   {
+    "name": "_tailwind",
+    "path": "/_tailwind",
+    "component": "/Users/sokhonchhun/Documents/GitHub/MyPortfolio/SokhonC.github.io/node_modules/@nuxtjs/tailwindcss/lib/ui/pages/index.vue"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "/Users/sokhonchhun/Documents/GitHub/myporfolio/SokhonC.github.io/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_01cf56ca"
+    "component": "/Users/sokhonchhun/Documents/GitHub/MyPortfolio/SokhonC.github.io/pages/index.vue",
+    "chunkName": "pages/index"
   }
 ]

@@ -61,24 +61,31 @@
               <a href="">lk</a>
             </div> -->
             <div class="flex justify-evenly mt-1">
-                <!-- Facebook svg -->
-                <a href="https://www.facebook.com/sokhon.chhun.17/">
-                    <img class="w-6 h-6" src="fb.svg" alt="Facebook">
-                </a>
-                <!-- Twitter svg -->
-                <a href="https://www.instagram.com/sokhon_chhun/">
-                    <img class="w-6 h-6" src="ig.svg" alt="Facebook">
-                </a>
-                <!-- Instagram svg -->
-                <a href="https://www.linkedin.com/in/sokhon-chhun-049717192/">
-                    <img class="w-6 h-6" src="lk.svg" alt="Facebook">
-                </a>
-                <a href="https://twitter.com/sokhon_chhun">
-                    <img class="w-6 h-6" src="twt.svg" alt="Facebook">
-                </a>
-                <a href="https://github.com/SokhonC">
-                    <img class="w-5 h-5" src="gh.svg" alt="Facebook">
-                </a>
+                <button>
+                  <a href="https://www.facebook.com/sokhon.chhun.17/">
+                      <img class="w-6 h-6" src="fb.svg" alt="Facebook">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://www.instagram.com/sokhon_chhun/">
+                      <img class="w-6 h-6" src="ig.svg" alt="Instagram">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://www.linkedin.com/in/sokhon-chhun-049717192/">
+                      <img class="w-6 h-6" src="lk.svg" alt="LinkedIn">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://twitter.com/sokhon_chhun">
+                      <img class="w-6 h-6" src="twt.svg" alt="Twitter">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://github.com/SokhonC">
+                      <img class="w-5 h-5" src="gh.svg" alt="Github">
+                  </a>
+                </button>
             </div>
             <p class="mt-1">{{currentDate.getFullYear()}} - sokhon_chhun</p>
         </div>
@@ -154,24 +161,31 @@
               <a href="">lk</a>
             </div> -->
             <div class="flex justify-evenly mt-1">
-                <!-- Facebook svg -->
-                <a href="https://www.facebook.com/sokhon.chhun.17/">
-                    <img class="w-6 h-6" src="fb.svg" alt="Facebook">
-                </a>
-                <!-- Twitter svg -->
-                <a href="https://www.instagram.com/sokhon_chhun/">
-                    <img class="w-6 h-6" src="ig.svg" alt="Facebook">
-                </a>
-                <!-- Instagram svg -->
-                <a href="https://www.linkedin.com/in/sokhon-chhun-049717192/">
-                    <img class="w-6 h-6" src="lk.svg" alt="Facebook">
-                </a>
-                <a href="https://twitter.com/sokhon_chhun">
-                    <img class="w-6 h-6" src="twt.svg" alt="Facebook">
-                </a>
-                <a href="https://github.com/SokhonC">
-                    <img class="w-5 h-5" src="gh.svg" alt="Facebook">
-                </a>
+                <button>
+                  <a href="https://www.facebook.com/sokhon.chhun.17/">
+                      <img class="w-6 h-6" src="fb.svg" alt="Facebook">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://www.instagram.com/sokhon_chhun/">
+                      <img class="w-6 h-6" src="ig.svg" alt="Instagram">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://www.linkedin.com/in/sokhon-chhun-049717192/">
+                      <img class="w-6 h-6" src="lk.svg" alt="LinkedIn">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://twitter.com/sokhon_chhun">
+                      <img class="w-6 h-6" src="twt.svg" alt="Twitter">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://github.com/SokhonC">
+                      <img class="w-5 h-5" src="gh.svg" alt="Github">
+                  </a>
+                </button>
             </div>
             <p class="mt-1">{{currentDate.getFullYear()}} - sokhon_chhun</p>
         </div>
@@ -207,24 +221,26 @@
               <a href="">lk</a>
             </div> -->
             <div class="flex justify-evenly mt-1">
-                <!-- Facebook svg -->
-                <a href="https://www.facebook.com/sokhon.chhun.17/">
-                    <img class="w-6 h-6" src="fbc.svg" alt="Facebook">
-                </a>
-                <!-- Twitter svg -->
-                <a href="https://www.instagram.com/sokhon_chhun/">
-                    <img class="w-6 h-6" src="igc.svg" alt="Instagram">
-                </a>
-                <!-- Instagram svg -->
-                <a href="https://www.linkedin.com/in/sokhon-chhun-049717192/">
-                    <img class="w-6 h-6" src="inc.svg" alt="LinkendIn">
-                </a>
-                <a href="https://twitter.com/sokhon_chhun">
-                    <img class="w-6 h-6" src="twtc.svg" alt="Twitter">
-                </a>
-                <!-- <a href="#">
-                    <img class="w-5 h-5" src="gh.svg" alt="Facebook">
-                </a> -->
+                <button>
+                  <a href="https://www.facebook.com/sokhon.chhun.17/">
+                      <img class="w-6 h-6" src="fbc.svg" alt="Facebook">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://www.instagram.com/sokhon_chhun/">
+                      <img class="w-6 h-6" src="igc.svg" alt="Instagram">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://www.linkedin.com/in/sokhon-chhun-049717192/">
+                      <img class="w-6 h-6" src="inc.svg" alt="LinkedIn">
+                  </a>
+                </button>
+                <button>
+                  <a href="https://twitter.com/sokhon_chhun">
+                      <img class="w-6 h-6" src="twtc.svg" alt="Twitter">
+                  </a>
+                </button>
             </div>
             <p class="mt-1" style="color:white;">{{currentDate.getFullYear()}} - sokhon_chhun</p>
         </div>
